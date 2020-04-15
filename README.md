@@ -76,3 +76,12 @@ If you have any feedback or questions about the new Input System, you are invite
 If you have any issues, errors or feedback about the example project; you can open an issue on this repository or send an email to andyt[at]unity3d.com
 
 
+
+
+## Technical Disclaimers & Known Issues
+
+- The GameManager script has a toggle for spawning a group of Warriors at Runtime.
+  - The number of warriors that is spawned is based on a fixed integer variable (manually set in the Inspector), and is not based on the number of input devices connected and detected.
+
+- When opening the project for the first time, the **Pause Menu Screen Blur Effect** might not be rendering.
+  - To fix this, locate the **UniversalRenderPipeline_Renderer_MenuBlur** asset and add the **Kawase Blur Render Pass** to the Renderer Features
