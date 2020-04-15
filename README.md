@@ -12,7 +12,7 @@ This Unity example project has been created to demonstrate a variety of tools an
 You can learn more about the new Input System in this overview blogpost: https://blogs.unity3d.com/2019/10/14/introducing-the-new-input-system/
 
 
-**Input System Demonstrated Features**
+**Input System Demonstrated Scenarios**
 - Input Action Control Scheme for basic Player Controls (Directional Axis for Movement, Button press for Attack)
 - Setting up Keyboard and Generic Gamepad bindings to the Control Scheme
   - Tested with the follwing controllers: PlayStation Dualshock 4, Xbox One and Nintendo Switch Pro
@@ -21,8 +21,9 @@ You can learn more about the new Input System in this overview blogpost: https:/
 - Runtime switching between Player Control and Menu Control Action Maps
 - UI for rebdining action controls to new buttons and joysticks
 - Displaying connected device data in both Screen Space and World Space UI
+- Callbacks for an Input Device runtime disconnecting and reconnecting
 
-**Other Demonstrated Features**
+**Other Demonstrated Scenarios**
 - Universal Render Pipeline's Camera Stacking for Overlay UI
 - Universal Render Pipeline's Scriptable Render Pass for Scene Blur UI Overlay
 - Universal Render Pipeline's Integrated Post-Processing for Tonemapping
@@ -37,7 +38,6 @@ You can learn more about the new Input System in this overview blogpost: https:/
 
 **Unity Version**
 - Current: [2019.3.4.7](https://blogs.unity3d.com/2020/01/28/unity-2019-3-is-now-available/)
-- Branch: [2020.1b4](https://unity3d.com/beta/2020.1b)
 
 **Packages**
 - com.unity.inputsystem: 1.0.0-preview.6
@@ -67,7 +67,7 @@ This example project is publicly available for you to:
 
 If you do use this example project in some form, please feel free to contact Andy Touch (andyt[at]unity3d.com); he'd love to hear from you about your your experience with it!
 
-## Credits
+## Credits & Feedback
 
 This example project is developed by Unity Technologies and has involvement from R&D, Product Management, Product Marketing and Evangelism.
 
