@@ -37,7 +37,7 @@ You can learn more about the new Input System in this overview blogpost: https:/
 ## Requirements
 
 **Unity Version**
-- Current: [2019.3.4.7](https://blogs.unity3d.com/2020/01/28/unity-2019-3-is-now-available/)
+- Current: [2020.1.b4](https://unity3d.com/beta/2020.1b)
 
 **Packages**
 - com.unity.inputsystem: 1.0.0-preview.6
