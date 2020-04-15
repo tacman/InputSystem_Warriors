@@ -41,8 +41,8 @@ You can learn more about the new Input System in this overview blogpost: https:/
 
 **Packages**
 - com.unity.inputsystem: 1.0.0-preview.6
-- com.unity.textmeshpro: 2.0.1
-- com.unity.render-pipelines.universal: 7.2.0
+- com.unity.textmeshpro: 3.0.0-preview.1
+- com.unity.render-pipelines.universal: 8.0.1
 
 **Hardware**
 
